@@ -1,8 +1,9 @@
-PROMPT="%n@%m:%/
-`date +%a` `date +%m`/`date +%d` %@ %h > "
-HISTSIZE=2000
+#PROMPT="%n@%m:%/
+#`date +%a` `date +%m`/`date +%d` %@ %h > "
+
+HISTSIZE=20000
 HISTFILE=~/.zsh_history
-SAVEHIST=2000
+SAVEHIST=20000
 EDITOR=/usr/bin/vim
 LANG=C
 export LESSCHARSET=utf-8
@@ -18,8 +19,6 @@ promptinit
 prompt clint
 
 bindkey -v
-
-
 
 
 #alias ls='ls -F --color'
@@ -57,7 +56,3 @@ bindkey -v
 #export EC2_HOME=/opt/ec2
 #export AWS_ACCESS_KEY=
 #export AWS_SECRET_KEY=
-
-
-
-
