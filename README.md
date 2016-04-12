@@ -1,2 +1,1 @@
-# myenv
-my shell env and various stuffs
+my zshrc, vimrc files
